@@ -1,0 +1,149 @@
+.wrapper {
+    margin: 200px;
+}
+
+.head {
+    width: 500px;
+    height: 500px;
+    border: solid 1px rgb(204, 167, 65);
+    border-radius: 250px;
+    background-color: rgb(204, 167, 65);
+    z-index: 1;
+}
+
+.mouth {
+    width: 300px;
+    height: 250px;
+    border: solid 1px rgb(233, 204, 107);
+    border-radius: 50%;
+    background-color: rgb(233, 204, 107);
+    position: relative;
+    top: 14em;
+    left: 6em;
+}
+
+#smile {
+    width: 100px;
+    height: 10px;
+    border: solid 5px;
+    border-color: transparent black black black;
+    border-radius: 50%/0px 0px 25px 25px;
+    position: relative;
+    top: 75px;
+    left: 95px;
+}
+
+.nose {
+    width: 120px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    left: 90px;
+}
+
+#nosemark {
+    width: 20px;
+    height: 16px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 7px;
+    left: 70px;
+}
+
+.lefteye {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -100px;
+    left: 122px;
+    z-index: 1;
+}
+
+#leftpup {
+    width: 10px;
+    height: 10px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.righteye {
+    width: 60px;
+    height: 60px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: -163px;
+    left: 296px;
+    z-index: 1;
+}
+
+#rightpup {
+    width: 10px;
+    height: 10px;
+    border: solid 1px white;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.leftear {
+    width: 225px;
+    height: 225px;
+    border: solid 1px rgb(204, 167, 65);
+    border-radius: 50%;
+    background-color: rgb(204, 167, 65);
+    position: relative;
+    top: -400px;
+    left: -50px;
+    z-index: -1;
+}
+
+#inleft {
+    width: 115px;
+    height: 115px;
+    border: solid 1px rgb(87, 47, 15);
+    border-radius: 50%;
+    background-color: rgb(87, 47, 15);
+    position: relative;
+    top: 65px;
+    left: 65px;
+}
+
+.rightear {
+    width: 225px;
+    height: 225px;
+    border: solid 1px rgb(204, 167, 65);
+    border-radius: 50%;
+    background-color: rgb(204, 167, 65);
+    position: relative;
+    top: -640px;
+    left: 320px;
+    z-index: -1;
+}
+
+#inright {
+    width: 115px;
+    height: 115px;
+    border: solid 1px rgb(87, 47, 15);
+    border-radius: 50%;
+    background-color: rgb(87, 47, 15);
+    position: relative;
+    top: 66px;
+    left: 35px;
+}
